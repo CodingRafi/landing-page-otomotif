@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body, html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Todo Navbar */
+nav {
+  background-color: #fff;
+  text-align: center;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 12vh;
+  position: fixed;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+nav ul li h2 {
+  margin-top: -7px;
+}
+
+nav ul li a {
+  display: block;
+  color: grey;
+  text-decoration: none;
+  padding-top: 1.5vh;
+}
+
+nav ul li p {
+  font-size: x-small;
+}
+
+nav ul li:last-child {
+  font-size: large;
+  margin-top: 5px;
+}
+
+nav ul li a:hover {
+  color: #e5ae40;
+  font-weight: 500;
+}
+/* Todo End Navbar */
+
+/* Todo Landing Page */
+
+.landing {
+  background: url(https://images.hdqwalls.com/download/toyota-supra-need-for-speed-game-4k-gk-1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+.landing-container {
+  color: #fff;
+  padding-top: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 100%);
+  padding-left: 12vh;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.landing-container h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.landing-container h4 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.landing-button {
+  margin-top: 30px;
+}
+
+.btn1 {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 16px 30px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: -35px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.btn2 {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 16px 30px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: -35px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btn1:hover {
+  background: transparent;
+  color: white;
+  transition: 666ms;
+}
+
+.btn2:hover {
+  background: white;
+  color: black;
+  transition: 666ms;
+}
+/* Todo End Landing Page */
+
+/* Todo Section 2 */
+
+.main2 {
+  margin-top: 85px;
+  text-align: center;
+}
+
+.main2 h1 {
+  margin-bottom: 50px;
+}
+
+.main2-img {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.fastest {
+  transition: 1s;
+  cursor: pointer;
+  width: 400px;
+}
+
+.fastest:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.main2-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.main2-text h2:first-child {
+  margin-left: 3vw;
+}
+
+.main2-text h2:nth-child(2) {
+  margin-left: 2vw;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -80px;
+  margin-bottom: -20px;
+}
+
+.box2 {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box .persen {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.box .persen svg circle {
+  width: 150px;
+  height: 150px;
+  fill: none;
+  stroke-width: 10;
+  stroke: #e5ae40;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 440;
+  stroke-linecap: round;
+  stroke-dashoffset: 45px;
+}
+
+.box .persen .num {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+
+.box .persen .num h2 {
+  font-size: 48px;
+}
+
+.box .persen .num h2 span {
+  font-size: 24px;
+}
+
+.box .text {
+  padding-top: 10px;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Todo End Section 2 */
+
+/* Todo Main 3 */
+.main3 {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.main3 h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.card {
+  padding-top: 15px;
+  margin-top: 50px;
+  margin-right: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  border-radius: 5px;
+  width: 20vw;
+  height: 44vh;
+}
+
+.card h4 {
+  text-align: center;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.card-container button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 10px 90px;
+  font-size: 16px;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.main3 button:hover {
+  background-color: #e5ae40;
+}
+/* Todo End Main 3 */
+
+/* Todo Main 4 */
+.main4{
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.main4 h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main4-container{
+    display: flex;
+}
+
+.left-img{
+    margin-left: 6.2vh;
+    height: 66vh;
+}
+
+.left-img img{
+    border: hidden;
+    border-radius: 20px;
+}
+
+.right-text{
+    margin-left: 4vh;
+    width: 30%;
+    height: 66vh;
+}
+
+.right-text h2{
+    font-size: 1.8rem;
+}
+
+.right-text p{
+    font-size: .94rem;
+    margin-top: 10px;
+}
+
+.right-text button{
+    background-color: #000;
+    border: none;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 16px;
+    margin-top: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right-text button:hover{
+    background-color: #e5ae40;
+}
+
+/* Todo End Main 4 */
+
+/* Todo Main 5 */
+.main5{
+    padding-bottom: 40px;
+    margin-top: 100px;
+}
+
+.main5 h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.three{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+
+.three img{
+    border: none;
+    border-radius: 10px;
+}
+
+.section1{
+    width: 25%;
+}
+
+.three h2{
+    margin-bottom: 10px;
+}
+
+.three img{
+    cursor: pointer;
+}
+/* Todo End Main 5 */
+
+/* Todo Footer */
+footer{
+    background-color: #e5ae40;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    border: none;
+    border-radius: 50px 50px 0 0;
+    width: 100vw;
+}
+
+footer ul{
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    padding-bottom: 20px;
+}
+
+footer ul li:hover{
+    transform: scale(1.2);
+    transition: 666ms;
+    cursor: pointer;
+}
+
+.footer .logo p{
+    font-size: x-small;
+}
+
+.footer .menu ul{
+    font-size: 36px;
+}
+
+.footer .link p{
+    font-size: x-small;
+}
+
+/* Todo End Footer */
